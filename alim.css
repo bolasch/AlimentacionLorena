@@ -1,0 +1,99 @@
+body {margin 0px;
+     /* background-color:yellow;*/}
+
+body, html {
+  height: 100%;
+  background-color: yellow;
+}
+
+.parallax{
+  /* The image used */
+  background-image: url("pics/pistachio.jpg");
+
+  /* Full height */
+  height: 100%;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax2{
+  /* The image used */
+  background-image: url("pics/girlshop.jpg");
+
+  /* Full height */
+  height: 100%;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax3{
+  /* The image used */
+  background-image: url("pics/popcorn.jpg");
+
+  /* Full height */
+  height: 100%;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+
+div.header{
+    /*position: -webkit-sticky;
+    position: sticky;*/
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: yellow;
+    height: 40px;
+    padding: 5px;
+        }
+/*at 858 height needs to be like 60px!!!!!!!!!!!!!!!!!!!!!!*/
+
+
+li {list-style-type: none;
+    display: inline;
+    cursor: pointer;
+        }
+
+
+
+* {
+    box-sizing: border-box;}
+
+#row {
+		content: "";
+        display: table;
+        clear: both;	
+
+        background-color: yellow;
+		}
+
+#column {
+		float: left;
+        width: 50%;
+        padding: 10px;
+		}
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+.foot{margin-top: 280px;
+margin-bottom:60px;
+    font-size:24px;
+   border: 2px solid black;
+}
