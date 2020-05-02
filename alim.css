@@ -1,15 +1,22 @@
-body {margin: 0px;
-     /* background-color:yellow;*/}
-
-body, html {
-  height: 100%;
+body {
   background-color: yellow;
+}
+
+.navbar-default{
+  background-color: yellow;
+  border: transparent;
+}
+
+.navbar-header{
+  font-size: large;
+  font-weight: 800;
+  padding-top: 3px;
 }
 
 .parallax{
   /* The image used */
   background-image: url("pics/pistachio.jpg");
-
+  text-align: center;
   /* Full height */
   height: 100%;
 
@@ -19,7 +26,17 @@ body, html {
   background-repeat: no-repeat;
   background-size: cover;
 }
-
+.parallax h1{  
+  color: yellow;
+  font-family: 'Kaushan Script', cursive;
+  font-size: 4em;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
 .parallax2{
   /* The image used */
   background-image: url("pics/girlshop.jpg");
@@ -49,51 +66,32 @@ body, html {
 }
 
 
-
-div.header{
-    /*position: -webkit-sticky;
-    position: sticky;*/
-    position: fixed;
-    top: 0;
-    width: 100%;
-    background-color: yellow;
-    height: 40px;
-    padding: 5px;
-        }
-/*at 858 height needs to be like 60px!!!!!!!!!!!!!!!!!!!!!!*/
-
-
 li {list-style-type: none;
     display: inline;
     cursor: pointer;
+    padding: 5px;
         }
 
-
-
-* {
-    box-sizing: border-box;}
-
-#row {
-		content: "";
-        display: table;
-        clear: both;	
-
-        background-color: yellow;
-		}
-
-#column {
-		float: left;
-        width: 50%;
-        padding: 10px;
-		}
 @media screen and (max-width: 600px) {
   .column {
     width: 100%;
   }
 }
 
-.foot{margin-top: 280px;
+.foot{
+margin-top:2.5em;
 margin-bottom:60px;
     font-size:24px;
    border: 2px solid black;
+}
+
+.col-xs-12 p{
+margin-top: 2.5em;
+margin-bottom: 2.5em;
+
+}
+
+  #co iframe{
+  display: block;
+  margin-top: 2.5em;
 }

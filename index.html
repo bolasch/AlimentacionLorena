@@ -1,37 +1,58 @@
 <!Doctype html lang="es">
 <head>
 <title> Alimentacion Lorena</title>
-    <meta charset="UTF-8">
-    <meta name="description" content="website for Alimentacion">
+<link href='css/bootstrap.css' rel='stylesheet'>	
+<meta name="description" content="website for Alimentacion">
     <meta name="keywords" content="alimentacion,comida,bebida,local,getafe,Lorena,comprar">
     <meta name="author" content="Balit">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <!--scrollTo,scrollBy,scrollIntoView,
 nav list items: Nosotros,Galeria,contacto-->
-    
-     <link rel="stylesheet" type="text/css" href="alim.css">
-    
+	 <link rel="stylesheet" type="text/css" href="alim.css">
+	 <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+
 </head>
 <body>
-    
+    <nav class="navbar navbar-default navbar-fixed-top">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				  </button>
+					<li onmousedown="totop()">Alimentacion Lorena</li>
+				</div>
+						<ul class="nav navbar-nav navbar-left">
+							<li><img src="pics/phone.png">+34 606 93 11 91</li>
+							<li><img src="pics/open.png">09:00-15:00</li>
+						</ul>	
 
-    <div class="header">
-        
-        <span style="padding-left: 20px; font-size: 1em; letter-spacing: 2px;"><li onmousedown="totop()">Alimentacion Lorena</li> | 
-            <img src="pics/phone.png"><li>+34 606 93 11 91</li> | <img src="pics/open.png"><li>09:00-15:00</li>
-        <span style="float: right; padding-right: 20px;"><a href="https://www.facebook.com/alimentacionlorena/"><img src="pics/facebooklogo.png"></a>   <a href="https://www.instagram.com/alimentacion_lorena/?fbclid=IwAR2-u9vmHaR_PZ-sc9G95ZpMRQYs1EH9F9di-jy2Z7UBRYyK5BSyMpJyDFo"><img src="pics/instagramlogo.png"></a></span>
-            <span style="padding-left: 20px; font-size: 1em; letter-spacing: 2px;"><li onmousedown="scrus()">Nosotros</li>
-        <li onmousedown="scrga()">Galeria</li> <li onmousedown="scrco()">Contacto</li></span>
-       
-        
-       
-    </div>    
+						<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+							<ul class="nav navbar-nav navbar-left">
+								<li onmousedown="scrus()">Nosotros<span class="sr-only">(current)</span></li>
+								<li onmousedown="scrga()">Galeria<span class="sr-only">(current)</span></li> 
+								<li onmousedown="scrco()">Contacto<span class="sr-only">(current)</span></li>
+							</ul>
+							<ul class="nav navbar-nav navbar-right">
+								<li><a href="https://www.facebook.com/alimentacionlorena/"><img src="pics/facebooklogo.png"></a></li>
+								<li><a href="https://www.instagram.com/alimentacion_lorena/?fbclid=IwAR2-u9vmHaR_PZ-sc9G95ZpMRQYs1EH9F9di-jy2Z7UBRYyK5BSyMpJyDFo"><img src="pics/instagramlogo.png"></a></li>
+								</ul>
+							
+							</div>
+					</div>				
+			</div>
+		</div>  
+	</nav>    
   
-    
-    <div  id="atop" class="parallax"></div>
+<div class="container"> 
+    <div  id="atop" class="parallax">
+		<h1>Alimentación Lorena</h1>
      <!--<img id="pistachio" src="pics/pistachio.jpg">-->
      <!--pistachio-Alimentacion Lorena-->
-    <div id="us">
+	</div>
+	 <div id="us">
         <p>Bienvenido a la página web de Alimentacion Lorena. Somos una empresa familiar que busca satisfacer la demanda de comestibles locales. Ingrese a su comodidad más cercana para ver lo que tenemos para ofrecer, síganos en Facebook o instagram. En caso de cualquier solicitud o pregunta, envíenos un mensaje en Facebook o envíenos un correo electrónico al final de esta página. Responderemos lo antes posible. Actualizaremos Instagram y Facebook regularmente, así que esté atento a nuevos artículos y ofertas fantásticas. Saludos cordiales. Alimentacion Lorena.
             Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
     	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -85,24 +106,24 @@ nav list items: Nosotros,Galeria,contacto-->
        <!-- <img id="pistachio" src="pics/girlshop.jpg">-->
         </div><!--picture-->
     <div id="ga">
-        <!-- SnapWidget -->
-<iframe src="https://snapwidget.com/embed/820647" class="snapwidget-widget" allowtransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden;  width:1350px; height:450px"></iframe>
-        </div><!--galeria-->
+		<!-- SnapWidget -->
+		<iframe src="https://snapwidget.com/embed/820647" class="snapwidget-widget" allowtransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden;  width:100%; height:20vw"></iframe>
+</div><!--galeria-->
     <div class="parallax3">
          <!-- <img id="pistachio" src="pics/popcorn.jpg">-->
         </div><!--picture-->
     
-    <div id="co" id="row">    <div id="column">
-       
-       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3042.7986627863816!2d-3.7403268851736473!3d40.30242917050811!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd42209b7e4cdab3%3A0x7df710cb520d5992!2sAv.%20Reyes%20Catolicos%2C%2025%2C%2028904%20Getafe%2C%20Madrid%2C%20Spain!5e0!3m2!1sen!2suk!4v1588086822383!5m2!1sen!2suk" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-        
-        </div></div>
-                              <div>
-                                    <p><img src="pics/location.png">Calle Reyes Catolicos 25.Getafe, Madrid</p><br>
-                                    <p> Nosotros estamos A lado de parada de Autobus 2 y 444 (Ni. de parada: 08229)</p> <br>
-                                    <p> El estación de metro más cercana es Alonso de Mendoza (300 metros).</p>
+		<div class="row" id="co">
+			<div class="col-xs-12 col-md-8">
+    		   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3042.7986627863816!2d-3.7403268851736473!3d40.30242917050811!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd42209b7e4cdab3%3A0x7df710cb520d5992!2sAv.%20Reyes%20Catolicos%2C%2025%2C%2028904%20Getafe%2C%20Madrid%2C%20Spain!5e0!3m2!1sen!2suk!4v1588086822383!5m2!1sen!2suk" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+			</div>  
+			<div class="col-xs-12 col-md-4 text-center">
+				<p><img src="pics/location.png">Calle Reyes Catolicos 25.Getafe, Madrid<br></p>
+				<p>Estamos A lado de parada de Autobus 2 y 444 (Ni. de parada: 08229)<br>
+				El estación de metro más cercana es Alonso de Mendoza (300 metros).</p>
+			</div>
             
-                              </div><!--contacto-->
+        </div><!--contacto-->
         
         <div class="foot">
             <img src="pics/correo.png">
@@ -110,9 +131,13 @@ Si tiene alguna pregunta o no encontró algo en nuestros estantes, envíenos un 
        <div>"Hecho con Carino" Balit</div><!--footer-->
 
 
-
-    <script type="text/javascript" src="alim.js">
-      // <link href="alim.js" ref="stylesheet"> 
+	   <script
+	   src="https://code.jquery.com/jquery-3.4.1.js"
+	   integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+	   crossorigin="anonymous"></script>
+	<script type="text/javascript" src="js/bootstrap.js"></script>
+	 <script type="text/javascript" src="alim.js">	</script>
+	<!-- <link href="alim.js" ref="stylesheet">  -->
     
-    </script>
+	</div>
 </body>
